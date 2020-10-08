@@ -1,0 +1,4 @@
+[DEBUG] 2020-10-08 15:21:15.126 [main] com.epam.tasks.seventh.Main - debug
+[INFO ] 2020-10-08 15:21:15.129 [main] com.epam.tasks.seventh.Main - info
+[WARN ] 2020-10-08 15:21:15.130 [main] com.epam.tasks.seventh.Main - warn
+[ERROR] 2020-10-08 15:21:15.130 [main] com.epam.tasks.seventh.Main - error
