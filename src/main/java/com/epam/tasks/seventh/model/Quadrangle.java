@@ -1,18 +1,16 @@
 package com.epam.tasks.seventh.model;
 
-import java.util.Objects;
-
 public class Quadrangle {
     private final Point pointA;
     private final Point pointB;
     private final Point pointC;
     private final Point pointD;
 
-    public Quadrangle(Point pointA, Point pointB, Point pointC, Point pointD) {
-        this.pointA = pointA;
-        this.pointB = pointB;
-        this.pointC = pointC;
-        this.pointD = pointD;
+    public Quadrangle(FourPointParameter parameter) {
+        this.pointA = parameter.getPointA();
+        this.pointB = parameter.getPointB();
+        this.pointC = parameter.getPointC();
+        this.pointD = parameter.getPointD();
     }
 
     public Point getPointA() {
