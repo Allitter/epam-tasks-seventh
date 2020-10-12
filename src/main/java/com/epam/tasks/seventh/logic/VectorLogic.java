@@ -2,24 +2,32 @@ package com.epam.tasks.seventh.logic;
 
 import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Vector;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.math.BigDecimal;
 
 public class VectorLogic {
+    private static final Logger LOGGER = LogManager.getLogger();
     private final BigDecimalUtil bigDecimalUtil = new BigDecimalUtil();
 
     public BigDecimal countLineLength(Point a, Point b) {
+        LOGGER.info(String.format("count line a,b {%s, %s} length", a, b));
         Vector vector = createVector(a, b);
-        return countVectorLength(vector);
+        BigDecimal result = countVectorLength(vector);
+        LOGGER.info("line length is " + result);
+        return result;
     }
 
     public BigDecimal countVectorLength(Vector vector) {
+        LOGGER.info("count vector length " + vector);
         BigDecimal x = vector.getX();
         BigDecimal y = vector.getY();
-
         BigDecimal xSqr = x.pow(2);
         BigDecimal ySqr = y.pow(2);
         BigDecimal sum = xSqr.add(ySqr);
-        return bigDecimalUtil.sqrt(sum);
+        BigDecimal result = bigDecimalUtil.sqrt(sum);
+        LOGGER.info("vector length is " + result);
+        return result;
     }
 
     /**
@@ -29,20 +37,24 @@ public class VectorLogic {
      * diagonal vector 2 coordinates
      * */
     public BigDecimal countCosBetweenVectors(Vector vector1, Vector vector2) {
+        LOGGER.info(String.format("count cos between vectors {%s, %s}", vector1, vector2));
         BigDecimal length1 = countVectorLength(vector1);
         BigDecimal length2 = countVectorLength(vector2);
-
         Vector multiplied = multiplyVectorsLength(vector1, vector2);
         BigDecimal top = multiplied.getX().add(multiplied.getY());
         BigDecimal bottom = length1.multiply(length2);
-
-        return top.divide(bottom, BigDecimal.ROUND_DOWN);
+        BigDecimal result = top.divide(bottom, BigDecimal.ROUND_DOWN);
+        LOGGER.info("cos between two vectors is " + result);
+        return result;
     }
 
     public boolean areVectorsParallel(Vector vector1, Vector vector2) {
+        LOGGER.info(String.format("are vectors parallel {%s, %s}", vector1, vector2));
         BigDecimal cos = countCosBetweenVectors(vector1, vector2);
         cos = cos.abs();
-        return bigDecimalUtil.numbersEqual(cos, BigDecimal.ONE);
+        boolean result = bigDecimalUtil.numbersEqual(cos, BigDecimal.ONE);
+        LOGGER.info("are vectors parallel " + result);
+        return result;
     }
 
     public Vector createVector(Point a, Point b) {
@@ -56,7 +68,7 @@ public class VectorLogic {
         return new Vector(xVector, yVector);
     }
 
-    public Vector multiplyVectorsLength(Vector vector1, Vector vector2) {
+    private Vector multiplyVectorsLength(Vector vector1, Vector vector2) {
         BigDecimal x1 = vector1.getX();
         BigDecimal x2 = vector2.getX();
         BigDecimal y1 = vector1.getY();

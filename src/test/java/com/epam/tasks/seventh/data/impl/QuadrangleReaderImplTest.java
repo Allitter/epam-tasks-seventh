@@ -1,12 +1,14 @@
 package com.epam.tasks.seventh.data.impl;
 
 import com.epam.tasks.seventh.data.DataReader;
-import com.epam.tasks.seventh.data.QuadrangleParser;
 import com.epam.tasks.seventh.QuadrangleParserForTestUse;
+import com.epam.tasks.seventh.data.exception.DataException;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
+
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
@@ -18,10 +20,11 @@ public class QuadrangleReaderImplTest {
     private final Quadrangle quadrangle = parserForTest.getQuadrangle(CORRECT_QUADRANGLE_LINE_1);
 
     @Test
-    public void testReadQuadranglesShouldReturnQuadranglesWhenInputIsCorrect() {
+    public void testReadQuadranglesShouldReturnQuadranglesWhenInputIsCorrect()
+            throws IOException, DataException {
         //given
         //Mock parser
-        QuadrangleParser parser = Mockito.mock(QuadrangleParser.class);
+        QuadrangleParserImpl parser = Mockito.mock(QuadrangleParserImpl.class);
         Mockito.when(parser.parseQuadrangle(Mockito.any()))
                 .thenReturn(Optional.of(quadrangle));
         //Mock reader
@@ -46,10 +49,11 @@ public class QuadrangleReaderImplTest {
     }
 
     @Test
-    public void testReadQuadranglesShouldReturnQuadranglesWhenInputIsNotCorrect() {
+    public void testReadQuadranglesShouldReturnQuadranglesWhenInputIsNotCorrect()
+            throws DataException, IOException {
         //given
         //Mock parser
-        QuadrangleParser parser = Mockito.mock(QuadrangleParser.class);
+        QuadrangleParserImpl parser = Mockito.mock(QuadrangleParserImpl.class);
         Mockito.when(parser.parseQuadrangle(Mockito.any()))
                 .thenReturn(Optional.of(quadrangle));
         //Mock reader
