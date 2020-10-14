@@ -1,7 +1,5 @@
 package com.epam.tasks.seventh.model;
 
-import com.epam.tasks.seventh.data.DataReader;
-
 import java.math.BigDecimal;
 
 public class FourPointParameter {

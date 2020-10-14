@@ -7,8 +7,8 @@ import com.epam.tasks.seventh.model.Quadrangle;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
-
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
@@ -28,21 +28,15 @@ public class QuadrangleReaderImplTest {
         Mockito.when(parser.parseQuadrangle(Mockito.any()))
                 .thenReturn(Optional.of(quadrangle));
         //Mock reader
-        List<String> lines = new LinkedList<>();
-        lines.add(CORRECT_QUADRANGLE_LINE_1);
-        lines.add(CORRECT_QUADRANGLE_LINE_1);
+        List<String> lines = Arrays.asList(CORRECT_QUADRANGLE_LINE_1, CORRECT_QUADRANGLE_LINE_1);
         DataReader linesReader = Mockito.mock(DataReader.class);
-        Mockito.when(linesReader.readAllLines()).thenReturn(lines);
-
-        QuadrangleReaderImpl quadrangleReader =
-                new QuadrangleReaderImpl(linesReader, parser);
+        Mockito.when(linesReader.readAllLines(Mockito.any())).thenReturn(lines);
+        QuadrangleReaderImpl quadrangleReader = new QuadrangleReaderImpl(linesReader, parser);
         //expected
-        List<Quadrangle> expected = new LinkedList<>();
-        expected.add(quadrangle);
-        expected.add(quadrangle);
+        List<Quadrangle> expected = Arrays.asList(quadrangle, quadrangle);
 
         //when
-        List<Quadrangle> actual = quadrangleReader.readQuadrangles();
+        List<Quadrangle> actual = quadrangleReader.readQuadrangles("");
 
         //then
         Assert.assertEquals(expected, actual);
@@ -57,21 +51,17 @@ public class QuadrangleReaderImplTest {
         Mockito.when(parser.parseQuadrangle(Mockito.any()))
                 .thenReturn(Optional.of(quadrangle));
         //Mock reader
-        List<String> lines = new LinkedList<>();
-        lines.add(CORRECT_QUADRANGLE_LINE_1);
-        lines.add(INCORRECT_QUADRANGLE_LINE);
+        List<String> lines = Arrays.asList(CORRECT_QUADRANGLE_LINE_1, INCORRECT_QUADRANGLE_LINE);
         DataReader linesReader = Mockito.mock(DataReader.class);
-        Mockito.when(linesReader.readAllLines()).thenReturn(lines);
-
-        QuadrangleReaderImpl quadrangleReader =
-                new QuadrangleReaderImpl(linesReader, parser);
+        Mockito.when(linesReader.readAllLines(Mockito.any())).thenReturn(lines);
+        QuadrangleReaderImpl quadrangleReader = new QuadrangleReaderImpl(linesReader, parser);
         //expected
         List<Quadrangle> expected = new LinkedList<>();
         Quadrangle quadrangle1 = parserForTest.getQuadrangle(CORRECT_QUADRANGLE_LINE_1);
         expected.add(quadrangle1);
 
         //when
-        List<Quadrangle> actual = quadrangleReader.readQuadrangles();
+        List<Quadrangle> actual = quadrangleReader.readQuadrangles("");
 
         //then
         Assert.assertEquals(expected, actual);

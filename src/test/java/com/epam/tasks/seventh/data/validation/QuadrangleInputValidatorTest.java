@@ -1,5 +1,6 @@
 package com.epam.tasks.seventh.data.validation;
 
+import com.epam.tasks.seventh.data.validation.impl.QuadrangleInputValidator;
 import org.junit.Assert;
 import org.junit.Test;
 

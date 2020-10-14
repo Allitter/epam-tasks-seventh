@@ -1,27 +1,25 @@
 package com.epam.tasks.seventh.data.impl;
 
+import com.epam.tasks.seventh.data.exception.DataException;
 import org.junit.Assert;
 import org.junit.Test;
-import java.io.File;
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FileDataReaderTest {
-    private final File file = new File("src/test/resources/input.txt");
+    private static final String PATH = "input.txt";
 
     @Test
     public void testReadLinesShouldReadMultipleLinesWhenHasInput()
-            throws IOException {
+            throws IOException, DataException {
+        FileDataReader reader = new FileDataReader();
+        List<String> expected = Arrays.asList("line 1", "line 2", "line 3");
 
-        FileDataReader reader = new FileDataReader(file);
-        List<String> expected = new LinkedList<>();
-        expected.add("line 1");
-        expected.add("line 2");
-        expected.add("line 3");
-
-        List<String> actual = reader.readAllLines();
+        List<String> actual = reader.readAllLines(PATH);
 
         Assert.assertEquals(expected, actual);
     }
+
+
 }

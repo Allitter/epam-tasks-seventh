@@ -1,435 +1,435 @@
-[INFO ] 2020-10-13 01:37:54.749 [main] tasks.seventh.data.impl.FileDataReader - trying to create input stream
-[INFO ] 2020-10-13 01:37:54.764 [main] tasks.seventh.data.impl.FileDataReader - input stream created
-[INFO ] 2020-10-13 01:37:54.764 [main] tasks.seventh.data.impl.FileDataReader - all lines read
-[INFO ] 2020-10-13 01:37:54.769 [main] tasks.seventh.data.impl.QuadrangleParserImpl - trying to create quadrangle
-[INFO ] 2020-10-13 01:37:54.769 [main] tasks.seventh.data.impl.QuadrangleParserImpl - quadrangle created
-[INFO ] 2020-10-13 01:37:54.770 [main] tasks.seventh.data.impl.QuadrangleParserImpl - trying to create quadrangle
-[WARN ] 2020-10-13 01:37:54.770 [main] tasks.seventh.data.impl.QuadrangleParserImpl - incorrect line
-[INFO ] 2020-10-13 01:37:54.890 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - trying to read quadrangle
-[INFO ] 2020-10-13 01:37:54.891 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - read quadrangles
-[INFO ] 2020-10-13 01:37:54.891 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsing quadrangles
-[INFO ] 2020-10-13 01:37:54.892 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsed quadrangle 1 2 3 -4.2 5 6 7.6 8
-[INFO ] 2020-10-13 01:37:54.892 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - incorrect line -1 2 3 -4 5 6
-[INFO ] 2020-10-13 01:37:54.892 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - trying to read quadrangle
-[INFO ] 2020-10-13 01:37:54.892 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - read quadrangles
-[INFO ] 2020-10-13 01:37:54.893 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsing quadrangles
-[INFO ] 2020-10-13 01:37:54.893 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsed quadrangle 1 2 3 -4.2 5 6 7.6 8
-[INFO ] 2020-10-13 01:37:54.893 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsed quadrangle 1 2 3 -4.2 5 6 7.6 8
-[INFO ] 2020-10-13 01:37:54.895 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 0
-[INFO ] 2020-10-13 01:37:54.895 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 0
-[INFO ] 2020-10-13 01:37:54.896 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 25
-[INFO ] 2020-10-13 01:37:54.897 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 5.0
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.900 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.901 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.902 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.903 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram true
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.904 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.905 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.906 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus true
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.QuadrangleLogic - calculating perimeter Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.907 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.908 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.909 [main] epam.tasks.seventh.logic.QuadrangleLogic - perimeter is 12.0
-[INFO ] 2020-10-13 01:37:54.909 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.909 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.910 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - is square Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.911 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.912 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.912 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.913 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.914 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.915 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram true
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rectangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 0E-40
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rectangle true
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.916 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.917 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.918 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.919 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram true
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.920 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus true
-[INFO ] 2020-10-13 01:37:54.921 [main] epam.tasks.seventh.logic.QuadrangleLogic - is square result true
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=2.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=3.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=2.00000000000000000000, y=4.00000000000000000000}, Point{x=3.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=2.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=2.00000000000000000000, y=4.00000000000000000000}, Point{x=3.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=3.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=2.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=3.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.922 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1.00000000000000000000, y=3.00000000000000000000}, Vector{x=1.00000000000000000000, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1.00000000000000000000, y=3.00000000000000000000}, Vector{x=1.00000000000000000000, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1.00000000000000000000, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 10.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.16227766016837933199889354443272
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.16227766016837933199889354443272
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1.00000000000000000000, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 10.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.16227766016837933199889354443272
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.16227766016837933199889354443272
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -0.7999999999999999999999999999999992581142
-[INFO ] 2020-10-13 01:37:54.923 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel false
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 1.0
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.0
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.924 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze true
-[INFO ] 2020-10-13 01:37:54.925 [main] epam.tasks.seventh.logic.QuadrangleLogic - calculating area Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.925 [main] epam.tasks.seventh.logic.QuadrangleLogic - area is 9.00000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.926 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.927 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 3.0
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
-[INFO ] 2020-10-13 01:37:54.928 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.929 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.929 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze false
-[INFO ] 2020-10-13 01:37:54.929 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.929 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line false
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle true
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.930 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.931 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
-[INFO ] 2020-10-13 01:37:54.932 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
-[INFO ] 2020-10-13 01:37:54.932 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
-[INFO ] 2020-10-13 01:37:54.932 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=2.00000000000000000000}, pointB=Point{x=3.00000000000000000000, y=2.00000000000000000000}, pointC=Point{x=5.00000000000000000000, y=2.00000000000000000000}, pointD=Point{x=7.00000000000000000000, y=8.00000000000000000000}}
-[INFO ] 2020-10-13 01:37:54.932 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots {Point{x=1.00000000000000000000, y=2.00000000000000000000}, Point{x=3.00000000000000000000, y=2.00000000000000000000}, Point{x=5.00000000000000000000, y=2.00000000000000000000}} on one line
-[INFO ] 2020-10-13 01:37:54.932 [main] epam.tasks.seventh.logic.QuadrangleLogic - are dots on one line true
-[INFO ] 2020-10-13 01:37:54.932 [main] epam.tasks.seventh.logic.QuadrangleLogic - is quadrangle false
-[INFO ] 2020-10-13 01:37:54.933 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3, y=4}
-[INFO ] 2020-10-13 01:37:54.933 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 25
-[INFO ] 2020-10-13 01:37:54.933 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 5.0
-[INFO ] 2020-10-13 01:37:54.933 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 5.0
-[INFO ] 2020-10-13 01:37:54.934 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=0E-20, y=4.00000000000000000000}, Point{x=3.00000000000000000000, y=0E-20}} length
-[INFO ] 2020-10-13 01:37:54.934 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=-4.00000000000000000000}
-[INFO ] 2020-10-13 01:37:54.934 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 25.0000000000000000000000000000000000000000
-[INFO ] 2020-10-13 01:37:54.934 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 5.0
-[INFO ] 2020-10-13 01:37:54.934 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 5.0
-[INFO ] 2020-10-13 01:37:54.934 [main] epam.tasks.seventh.logic.VectorLogic - line length is 5.0
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1, y=1}, Vector{x=2, y=2}}
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1, y=1}
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 2
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 1.414213562373095048801688724209696
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.414213562373095048801688724209696
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=2, y=2}
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 8
-[INFO ] 2020-10-13 01:37:54.935 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 2.8284271247461900976033774484194
-[INFO ] 2020-10-13 01:37:54.936 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 2.8284271247461900976033774484194
-[INFO ] 2020-10-13 01:37:54.936 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1
-[INFO ] 2020-10-13 01:37:54.936 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1, y=1}, Vector{x=2, y=2}}
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1, y=1}, Vector{x=2, y=2}}
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1, y=1}
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 2
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 1.414213562373095048801688724209696
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.414213562373095048801688724209696
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=2, y=2}
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 8
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 2.8284271247461900976033774484194
-[INFO ] 2020-10-13 01:37:54.937 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 2.8284271247461900976033774484194
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1, y=1}, Vector{x=3, y=4}}
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1, y=1}, Vector{x=3, y=4}}
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1, y=1}
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 2
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 1.414213562373095048801688724209696
-[INFO ] 2020-10-13 01:37:54.938 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.414213562373095048801688724209696
-[INFO ] 2020-10-13 01:37:54.939 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3, y=4}
-[INFO ] 2020-10-13 01:37:54.939 [main] epam.tasks.seventh.logic.BigDecimalUtil - calculating sqrt of 25
-[INFO ] 2020-10-13 01:37:54.939 [main] epam.tasks.seventh.logic.BigDecimalUtil - result is 5.0
-[INFO ] 2020-10-13 01:37:54.939 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 5.0
-[INFO ] 2020-10-13 01:37:54.939 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 0
-[INFO ] 2020-10-13 01:37:54.939 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel false
+[INFO ] 2020-10-14 18:53:28.360 [main] tasks.seventh.data.impl.FileDataReader - trying to create input stream
+[INFO ] 2020-10-14 18:53:28.372 [main] tasks.seventh.data.impl.FileDataReader - input stream created
+[INFO ] 2020-10-14 18:53:28.373 [main] tasks.seventh.data.impl.FileDataReader - all lines read
+[INFO ] 2020-10-14 18:53:28.378 [main] tasks.seventh.data.impl.QuadrangleParserImpl - trying to create quadrangle
+[INFO ] 2020-10-14 18:53:28.378 [main] tasks.seventh.data.impl.QuadrangleParserImpl - quadrangle created
+[INFO ] 2020-10-14 18:53:28.379 [main] tasks.seventh.data.impl.QuadrangleParserImpl - trying to create quadrangle
+[WARN ] 2020-10-14 18:53:28.379 [main] tasks.seventh.data.impl.QuadrangleParserImpl - incorrect line
+[INFO ] 2020-10-14 18:53:28.486 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - trying to read quadrangles
+[INFO ] 2020-10-14 18:53:28.487 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - read quadrangles
+[INFO ] 2020-10-14 18:53:28.488 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsing quadrangles
+[INFO ] 2020-10-14 18:53:28.488 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsed quadrangle 1 2 3 -4.2 5 6 7.6 8
+[INFO ] 2020-10-14 18:53:28.489 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - incorrect line -1 2 3 -4 5 6
+[INFO ] 2020-10-14 18:53:28.489 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - trying to read quadrangles
+[INFO ] 2020-10-14 18:53:28.490 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - read quadrangles
+[INFO ] 2020-10-14 18:53:28.490 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsing quadrangles
+[INFO ] 2020-10-14 18:53:28.490 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsed quadrangle 1 2 3 -4.2 5 6 7.6 8
+[INFO ] 2020-10-14 18:53:28.490 [main] tasks.seventh.data.impl.QuadrangleReaderImpl - parsed quadrangle 1 2 3 -4.2 5 6 7.6 8
+[INFO ] 2020-10-14 18:53:28.492 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 0
+[INFO ] 2020-10-14 18:53:28.492 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 0
+[INFO ] 2020-10-14 18:53:28.493 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 25
+[INFO ] 2020-10-14 18:53:28.494 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 5.0
+[INFO ] 2020-10-14 18:53:28.497 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.497 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.497 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.497 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.498 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.498 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.498 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.498 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.499 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.499 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.499 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
+[INFO ] 2020-10-14 18:53:28.500 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.501 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.501 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.501 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.501 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.501 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.502 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.502 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.502 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.502 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.502 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.502 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.502 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.502 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.502 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.502 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram true
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.503 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.503 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.503 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.503 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.503 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.504 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.504 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.504 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.504 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.504 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus true
+[INFO ] 2020-10-14 18:53:28.505 [main] epam.tasks.seventh.logic.QuadrangleLogic - calculating perimeter Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.505 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.505 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.505 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.505 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.506 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.506 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.506 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.507 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.507 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.507 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.507 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.507 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.507 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.507 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.507 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.507 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.507 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.508 [main] epam.tasks.seventh.logic.QuadrangleLogic - perimeter is 12.0
+[INFO ] 2020-10-14 18:53:28.508 [main] epam.tasks.seventh.logic.QuadrangleLogic - is square Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.509 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.509 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.509 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.509 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.510 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.511 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.511 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.511 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.511 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.511 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.512 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.512 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.512 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.512 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram true
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rectangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.512 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.513 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.513 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.513 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.513 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 0E-40
+[INFO ] 2020-10-14 18:53:28.513 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rectangle true
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.513 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.514 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.514 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.514 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.514 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.515 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.516 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.516 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.516 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.516 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.516 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.517 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.517 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.517 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.517 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.517 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.517 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.517 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.517 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.517 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.517 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.QuadrangleLogic - is parallelogram true
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.518 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.518 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.518 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.519 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.519 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.519 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.519 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.519 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.519 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.519 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.519 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.520 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.520 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} length
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.520 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.520 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.VectorLogic - line length is 3.0
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.QuadrangleLogic - is rhombus true
+[INFO ] 2020-10-14 18:53:28.520 [main] epam.tasks.seventh.logic.QuadrangleLogic - is square result true
+[INFO ] 2020-10-14 18:53:28.522 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=2.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=3.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.522 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=2.00000000000000000000, y=4.00000000000000000000}, Point{x=3.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.522 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.522 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=2.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.522 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.522 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=2.00000000000000000000, y=4.00000000000000000000}, Point{x=3.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.523 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.523 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=3.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.523 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.523 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.523 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=2.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=3.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.523 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1.00000000000000000000, y=3.00000000000000000000}, Vector{x=1.00000000000000000000, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.523 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1.00000000000000000000, y=3.00000000000000000000}, Vector{x=1.00000000000000000000, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.523 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1.00000000000000000000, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.523 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 10.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.524 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.16227766016837933199889354443272
+[INFO ] 2020-10-14 18:53:28.524 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.16227766016837933199889354443272
+[INFO ] 2020-10-14 18:53:28.524 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1.00000000000000000000, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.524 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 10.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.524 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.16227766016837933199889354443272
+[INFO ] 2020-10-14 18:53:28.524 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.16227766016837933199889354443272
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -0.7999999999999999999999999999999992581142
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel false
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.525 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.525 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 1.0
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.0
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.525 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.525 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.525 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.526 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.526 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.526 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze true
+[INFO ] 2020-10-14 18:53:28.526 [main] epam.tasks.seventh.logic.QuadrangleLogic - calculating area Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.526 [main] epam.tasks.seventh.logic.QuadrangleLogic - area is 9.00000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.527 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.527 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.527 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.527 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.528 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.528 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.528 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=0E-20, y=3.00000000000000000000}, Vector{x=0E-20, y=-3.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.528 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.528 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.529 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=0E-20, y=-3.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.529 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.529 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is -1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=3.00000000000000000000, y=0E-20}, Vector{x=3.00000000000000000000, y=0E-20}}
+[INFO ] 2020-10-14 18:53:28.529 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.530 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.530 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.530 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.530 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=0E-20}
+[INFO ] 2020-10-14 18:53:28.530 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 9.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.530 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 3.0
+[INFO ] 2020-10-14 18:53:28.530 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 3.0
+[INFO ] 2020-10-14 18:53:28.530 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.530 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.530 [main] epam.tasks.seventh.logic.QuadrangleLogic - is trapeze false
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.531 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.532 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.532 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.532 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.532 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=1.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is 9
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=1.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - getting point {Point{x=4.00000000000000000000, y=4.00000000000000000000}} location relative to ab {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} line 
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - point location relative to ab line is -9
+[INFO ] 2020-10-14 18:53:28.533 [main] epam.tasks.seventh.logic.QuadrangleLogic - is convex true
+[INFO ] 2020-10-14 18:53:28.534 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3, y=4}
+[INFO ] 2020-10-14 18:53:28.534 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 25
+[INFO ] 2020-10-14 18:53:28.534 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 5.0
+[INFO ] 2020-10-14 18:53:28.534 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 5.0
+[INFO ] 2020-10-14 18:53:28.535 [main] epam.tasks.seventh.logic.VectorLogic - count line a,b {Point{x=0E-20, y=4.00000000000000000000}, Point{x=3.00000000000000000000, y=0E-20}} length
+[INFO ] 2020-10-14 18:53:28.535 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3.00000000000000000000, y=-4.00000000000000000000}
+[INFO ] 2020-10-14 18:53:28.535 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 25.0000000000000000000000000000000000000000
+[INFO ] 2020-10-14 18:53:28.535 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 5.0
+[INFO ] 2020-10-14 18:53:28.535 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 5.0
+[INFO ] 2020-10-14 18:53:28.535 [main] epam.tasks.seventh.logic.VectorLogic - line length is 5.0
+[INFO ] 2020-10-14 18:53:28.536 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1, y=1}, Vector{x=2, y=2}}
+[INFO ] 2020-10-14 18:53:28.536 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1, y=1}
+[INFO ] 2020-10-14 18:53:28.536 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 2
+[INFO ] 2020-10-14 18:53:28.537 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 1.414213562373095048801688724209696
+[INFO ] 2020-10-14 18:53:28.537 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.414213562373095048801688724209696
+[INFO ] 2020-10-14 18:53:28.537 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=2, y=2}
+[INFO ] 2020-10-14 18:53:28.537 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 8
+[INFO ] 2020-10-14 18:53:28.537 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 2.8284271247461900976033774484194
+[INFO ] 2020-10-14 18:53:28.538 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 2.8284271247461900976033774484194
+[INFO ] 2020-10-14 18:53:28.538 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1
+[INFO ] 2020-10-14 18:53:28.538 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1, y=1}, Vector{x=2, y=2}}
+[INFO ] 2020-10-14 18:53:28.538 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1, y=1}, Vector{x=2, y=2}}
+[INFO ] 2020-10-14 18:53:28.538 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1, y=1}
+[INFO ] 2020-10-14 18:53:28.538 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 2
+[INFO ] 2020-10-14 18:53:28.538 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 1.414213562373095048801688724209696
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.414213562373095048801688724209696
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=2, y=2}
+[INFO ] 2020-10-14 18:53:28.539 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 8
+[INFO ] 2020-10-14 18:53:28.539 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 2.8284271247461900976033774484194
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 2.8284271247461900976033774484194
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 1
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel true
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel {Vector{x=1, y=1}, Vector{x=3, y=4}}
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - count cos between vectors {Vector{x=1, y=1}, Vector{x=3, y=4}}
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=1, y=1}
+[INFO ] 2020-10-14 18:53:28.539 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 2
+[INFO ] 2020-10-14 18:53:28.539 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 1.414213562373095048801688724209696
+[INFO ] 2020-10-14 18:53:28.539 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 1.414213562373095048801688724209696
+[INFO ] 2020-10-14 18:53:28.540 [main] epam.tasks.seventh.logic.VectorLogic - count vector length Vector{x=3, y=4}
+[INFO ] 2020-10-14 18:53:28.540 [main] tasks.seventh.logic.util.BigDecimalUtil - calculating sqrt of 25
+[INFO ] 2020-10-14 18:53:28.540 [main] tasks.seventh.logic.util.BigDecimalUtil - result is 5.0
+[INFO ] 2020-10-14 18:53:28.540 [main] epam.tasks.seventh.logic.VectorLogic - vector length is 5.0
+[INFO ] 2020-10-14 18:53:28.540 [main] epam.tasks.seventh.logic.VectorLogic - cos between two vectors is 0
+[INFO ] 2020-10-14 18:53:28.540 [main] epam.tasks.seventh.logic.VectorLogic - are vectors parallel false
+[INFO ] 2020-10-14 18:53:28.540 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=1.00000000000000000000}, pointB=Point{x=1.00000000000000000000, y=4.00000000000000000000}, pointC=Point{x=4.00000000000000000000, y=4.00000000000000000000}, pointD=Point{x=4.00000000000000000000, y=1.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=1.00000000000000000000}, Point{x=4.00000000000000000000, y=4.00000000000000000000}, Point{x=4.00000000000000000000, y=1.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line false
+[INFO ] 2020-10-14 18:53:28.541 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle true
+[INFO ] 2020-10-14 18:53:28.542 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle Quadrangle{pointA=Point{x=1.00000000000000000000, y=2.00000000000000000000}, pointB=Point{x=3.00000000000000000000, y=2.00000000000000000000}, pointC=Point{x=5.00000000000000000000, y=2.00000000000000000000}, pointD=Point{x=7.00000000000000000000, y=8.00000000000000000000}}
+[INFO ] 2020-10-14 18:53:28.542 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots {Point{x=1.00000000000000000000, y=2.00000000000000000000}, Point{x=3.00000000000000000000, y=2.00000000000000000000}, Point{x=5.00000000000000000000, y=2.00000000000000000000}} on one line
+[INFO ] 2020-10-14 18:53:28.542 [main] tasks.seventh.logic.validation.QuadrangleValidator - are dots on one line true
+[INFO ] 2020-10-14 18:53:28.542 [main] tasks.seventh.logic.validation.QuadrangleValidator - is quadrangle false

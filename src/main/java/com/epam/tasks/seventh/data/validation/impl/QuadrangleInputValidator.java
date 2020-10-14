@@ -1,6 +1,6 @@
-package com.epam.tasks.seventh.data.validation;
+package com.epam.tasks.seventh.data.validation.impl;
 
-import com.epam.tasks.seventh.data.InputValidator;
+import com.epam.tasks.seventh.data.validation.InputValidator;
 
 public class QuadrangleInputValidator implements InputValidator {
     //language=RegExp

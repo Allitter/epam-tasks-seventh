@@ -4,7 +4,6 @@ import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Vector;
 import org.junit.Assert;
 import org.junit.Test;
-
 import java.math.BigDecimal;
 
 public class VectorLogicTest {

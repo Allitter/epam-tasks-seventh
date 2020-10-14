@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface QuadrangleReader {
 
-    List<Quadrangle> readQuadrangles() throws DataException;
+    List<Quadrangle> readQuadrangles(String link) throws DataException;
 
 }

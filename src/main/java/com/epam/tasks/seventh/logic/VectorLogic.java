@@ -1,5 +1,6 @@
 package com.epam.tasks.seventh.logic;
 
+import com.epam.tasks.seventh.logic.util.BigDecimalUtil;
 import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Vector;
 import org.apache.logging.log4j.LogManager;
@@ -8,7 +9,6 @@ import java.math.BigDecimal;
 
 public class VectorLogic {
     private static final Logger LOGGER = LogManager.getLogger();
-    private final BigDecimalUtil bigDecimalUtil = new BigDecimalUtil();
 
     public BigDecimal countLineLength(Point a, Point b) {
         LOGGER.info(String.format("count line a,b {%s, %s} length", a, b));
@@ -25,7 +25,7 @@ public class VectorLogic {
         BigDecimal xSqr = x.pow(2);
         BigDecimal ySqr = y.pow(2);
         BigDecimal sum = xSqr.add(ySqr);
-        BigDecimal result = bigDecimalUtil.sqrt(sum);
+        BigDecimal result = BigDecimalUtil.sqrt(sum);
         LOGGER.info("vector length is " + result);
         return result;
     }
@@ -52,7 +52,7 @@ public class VectorLogic {
         LOGGER.info(String.format("are vectors parallel {%s, %s}", vector1, vector2));
         BigDecimal cos = countCosBetweenVectors(vector1, vector2);
         cos = cos.abs();
-        boolean result = bigDecimalUtil.numbersEqual(cos, BigDecimal.ONE);
+        boolean result = BigDecimalUtil.numbersEqual(cos, BigDecimal.ONE);
         LOGGER.info("are vectors parallel " + result);
         return result;
     }

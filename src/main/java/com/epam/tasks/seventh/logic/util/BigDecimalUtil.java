@@ -1,14 +1,17 @@
-package com.epam.tasks.seventh.logic;
+package com.epam.tasks.seventh.logic.util;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.math.BigDecimal;
 
-public class BigDecimalUtil {
+public final class BigDecimalUtil {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public BigDecimal sqrt(BigDecimal value) {
+    private BigDecimalUtil() {
+    }
+
+    public static BigDecimal sqrt(BigDecimal value) {
         LOGGER.info("calculating sqrt of " + value);
         if (value.compareTo(BigDecimal.ZERO) == 0) {
             LOGGER.info("result is " + BigDecimal.ZERO);
@@ -23,7 +26,7 @@ public class BigDecimalUtil {
         return root;
     }
 
-    public boolean numbersEqual(BigDecimal x, BigDecimal y) {
+    public static boolean numbersEqual(BigDecimal x, BigDecimal y) {
         return x.compareTo(y) == 0;
     }
 }

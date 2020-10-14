@@ -1,5 +1,7 @@
 package com.epam.tasks.seventh.logic;
 
+import com.epam.tasks.seventh.logic.util.BigDecimalUtil;
+import com.epam.tasks.seventh.logic.validation.QuadrangleValidator;
 import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Quadrangle;
 import com.epam.tasks.seventh.model.Vector;
@@ -11,7 +13,6 @@ import java.math.BigDecimal;
 public class QuadrangleLogic {
     private static final Logger LOGGER = LogManager.getLogger();
     private final VectorLogic vectorLogic = new VectorLogic();
-    private final BigDecimalUtil bigDecimalUtil = new BigDecimalUtil();
 
     /**
      * Area of quadrangle is calculated using Gauss area formula
@@ -86,16 +87,16 @@ public class QuadrangleLogic {
         BigDecimal side3 = vectorLogic.countLineLength(c, d);
         BigDecimal side4 = vectorLogic.countLineLength(a, d);
 
-        boolean result = bigDecimalUtil.numbersEqual(side1, side2) &&
-                bigDecimalUtil.numbersEqual(side1, side3) &&
-                bigDecimalUtil.numbersEqual(side1, side4);
+        boolean result = BigDecimalUtil.numbersEqual(side1, side2) &&
+                BigDecimalUtil.numbersEqual(side1, side3) &&
+                BigDecimalUtil.numbersEqual(side1, side4);
         LOGGER.info("is rhombus " + result);
-
         return result;
     }
 
     public boolean isTrapeze(Quadrangle quadrangle) {
-        if (!isQuadrangle(quadrangle)) {
+        QuadrangleValidator validator = new QuadrangleValidator();
+        if (!validator.isQuadrangle(quadrangle)) {
             return false;
         }
         Point a = quadrangle.getPointA();
@@ -115,21 +116,10 @@ public class QuadrangleLogic {
         return result;
     }
 
-    public boolean isQuadrangle(Quadrangle quadrangle) {
-        Point a = quadrangle.getPointA();
-        Point b = quadrangle.getPointB();
-        Point c = quadrangle.getPointC();
-        Point d = quadrangle.getPointD();
-        LOGGER.info("is quadrangle " + quadrangle);
-        boolean result = !(areDotsOnOneLine(a, b, c) || areDotsOnOneLine(a, b, d)
-                || areDotsOnOneLine(b, c, d) || areDotsOnOneLine(a, c, d));
-        LOGGER.info("is quadrangle " + result);
-        return result;
-    }
-
     // TODO try to change implementation
     public boolean isConvex(Quadrangle quadrangle) {
-        if (!isQuadrangle(quadrangle)) {
+        QuadrangleValidator validator = new QuadrangleValidator();
+        if (!validator.isQuadrangle(quadrangle)) {
             return false;
         }
         Point a = quadrangle.getPointA();
@@ -161,7 +151,7 @@ public class QuadrangleLogic {
         Vector vectorAD = vectorLogic.createVector(a, d);
 
         BigDecimal cos = vectorLogic.countCosBetweenVectors(vectorAB, vectorAD);
-        boolean result = bigDecimalUtil.numbersEqual(cos, BigDecimal.ZERO);
+        boolean result = BigDecimalUtil.numbersEqual(cos, BigDecimal.ZERO);
         LOGGER.info("is rectangle " + result);
         return result;
     }
@@ -206,25 +196,6 @@ public class QuadrangleLogic {
         int result = x3.subtract(x1).multiply(y2.subtract(y1))
                 .subtract(y3.subtract(y1).multiply(x2.subtract(x1))).intValue();
         LOGGER.info("point location relative to ab line is " + result);
-        return result;
-    }
-
-    /**
-     * straight line equation
-     * (y3 - y1) * (x2 - x1) = (y2 - y1) * (x3 - x1)
-     * */
-    private boolean areDotsOnOneLine(Point a, Point b, Point c) {
-        BigDecimal x1 = a.getX();
-        BigDecimal x2 = b.getX();
-        BigDecimal x3 = c.getX();
-        BigDecimal y1 = a.getY();
-        BigDecimal y2 = b.getY();
-        BigDecimal y3 = c.getY();
-        LOGGER.info(String.format("are dots {%s, %s, %s} on one line", a, b, c));
-        BigDecimal left = y3.subtract(y1).multiply(x2.subtract(x1));
-        BigDecimal right = y2.subtract(y1).multiply(x3.subtract(x1));
-        boolean result = bigDecimalUtil.numbersEqual(left, right);
-        LOGGER.info("are dots on one line " + result);
         return result;
     }
 
