@@ -1,16 +1,22 @@
 package com.epam.tasks.seventh.model;
 
 public class Quadrangle {
-    private final Point pointA;
-    private final Point pointB;
-    private final Point pointC;
-    private final Point pointD;
+    private int id;
+    private Point pointA;
+    private Point pointB;
+    private Point pointC;
+    private Point pointD;
 
-    public Quadrangle(FourPointParameter parameter) {
+    public Quadrangle(QuadrangleConstructorParameter parameter) {
+        this.id = parameter.getId();
         this.pointA = parameter.getPointA();
         this.pointB = parameter.getPointB();
         this.pointC = parameter.getPointC();
         this.pointD = parameter.getPointD();
+    }
+
+    public int getId() {
+        return id;
     }
 
     public Point getPointA() {
@@ -29,6 +35,22 @@ public class Quadrangle {
         return pointD;
     }
 
+    public void setPointA(Point pointA) {
+        this.pointA = pointA;
+    }
+
+    public void setPointB(Point pointB) {
+        this.pointB = pointB;
+    }
+
+    public void setPointC(Point pointC) {
+        this.pointC = pointC;
+    }
+
+    public void setPointD(Point pointD) {
+        this.pointD = pointD;
+    }
+
     @Override
     public String toString() {
         return "Quadrangle{" +
@@ -41,8 +63,13 @@ public class Quadrangle {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+
+        if (o == null || getClass() != o.getClass())  {
+            return false;
+        }
         Quadrangle that = (Quadrangle) o;
         return pointA.equals(that.pointA) &&
                 pointB.equals(that.pointB) &&
@@ -59,3 +86,4 @@ public class Quadrangle {
         return (int)result;
     }
 }
+

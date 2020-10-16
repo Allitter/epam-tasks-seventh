@@ -47,6 +47,4 @@ public class Point {
         result = PRIME_FOR_HASH * result * yValue + yValue;
         return result;
     }
-
-
 }

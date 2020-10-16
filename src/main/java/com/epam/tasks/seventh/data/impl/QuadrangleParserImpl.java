@@ -1,7 +1,7 @@
 package com.epam.tasks.seventh.data.impl;
 
 import com.epam.tasks.seventh.data.QuadrangleParser;
-import com.epam.tasks.seventh.model.FourPointParameter;
+import com.epam.tasks.seventh.model.QuadrangleConstructorParameter;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,14 +11,14 @@ import java.util.Optional;
 public class QuadrangleParserImpl implements QuadrangleParser {
     private static final Logger LOGGER = LogManager.getLogger();
     private static final String SPLITTER = "\\s+";
-    public static final int X_1 = 0;
-    public static final int X_2 = 2;
-    public static final int X_3 = 4;
-    public static final int X_4 = 6;
-    public static final int Y_1 = 1;
-    public static final int Y_2 = 3;
-    public static final int Y_3 = 5;
-    public static final int Y_4 = 7;
+    private static final int X_1 = 0;
+    private static final int X_2 = 2;
+    private static final int X_3 = 4;
+    private static final int X_4 = 6;
+    private static final int Y_1 = 1;
+    private static final int Y_2 = 3;
+    private static final int Y_3 = 5;
+    private static final int Y_4 = 7;
 
     public Optional<Quadrangle> parseQuadrangle(String line) {
         String[] split = line.split(SPLITTER);
@@ -30,12 +30,13 @@ public class QuadrangleParserImpl implements QuadrangleParser {
                 numbers[i] = new BigDecimal(split[i]);
             }
 
-            FourPointParameter.Builder builder = new FourPointParameter.Builder();
+            QuadrangleConstructorParameter.Builder builder =
+                    new QuadrangleConstructorParameter.Builder();
             builder.putA(numbers[X_1], numbers[Y_1]);
             builder.putB(numbers[X_2], numbers[Y_2]);
             builder.putC(numbers[X_3], numbers[Y_3]);
             builder.putD(numbers[X_4], numbers[Y_4]);
-            FourPointParameter parameter = builder.build();
+            QuadrangleConstructorParameter parameter = builder.build();
             result = Optional.of(new Quadrangle(parameter));
             LOGGER.info("quadrangle created");
         } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {

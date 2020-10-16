@@ -8,7 +8,6 @@ import com.epam.tasks.seventh.data.validation.impl.QuadrangleInputValidator;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
@@ -31,13 +30,9 @@ public class QuadrangleReaderImpl implements QuadrangleReader {
 
     private List<String> readAllLines(String link) throws DataException {
         List<String> lines;
-        try {
-            LOGGER.info("trying to read quadrangles");
-            lines = reader.readAllLines("");
-            LOGGER.info("read quadrangles");
-        } catch (IOException e) {
-            throw new DataException(e);
-        }
+        LOGGER.info("trying to read quadrangles");
+        lines = reader.readAllLines(link);
+        LOGGER.info("read quadrangles");
 
         return lines;
     }

@@ -1,7 +1,6 @@
 package com.epam.tasks.seventh.data.impl;
 
-import com.epam.tasks.seventh.QuadrangleParserForTestUse;
-import com.epam.tasks.seventh.data.impl.QuadrangleParserImpl;
+import com.epam.tasks.seventh.data.QuadrangleParserForTestUse;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,12 +1,13 @@
 package com.epam.tasks.seventh.logic;
 
+import com.epam.tasks.seventh.logic.impl.VectorCalculatorImpl;
 import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Vector;
 import org.junit.Assert;
 import org.junit.Test;
 import java.math.BigDecimal;
 
-public class VectorLogicTest {
+public class VectorCalculatorTest {
     private final Point point1 = new Point(BigDecimal.valueOf(0), BigDecimal.valueOf(4));
     private final Point point2 = new Point(BigDecimal.valueOf(3), BigDecimal.valueOf(0));
     private final Vector vector1 = new Vector(BigDecimal.valueOf(1), BigDecimal.valueOf(1));
@@ -15,10 +16,10 @@ public class VectorLogicTest {
 
     @Test
     public void testCountLineLengthShouldReturnLengthWhenInputIsCorrect() {
-        VectorLogic vectorLogic = new VectorLogic();
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
         BigDecimal expected = BigDecimal.valueOf(5)
                 .setScale(10, BigDecimal.ROUND_HALF_UP);
-        BigDecimal actual = vectorLogic.countLineLength(point1, point2)
+        BigDecimal actual = vectorCalculator.countLineLength(point1, point2)
                 .setScale(10, BigDecimal.ROUND_HALF_UP);
 
         Assert.assertEquals(expected, actual);
@@ -26,11 +27,11 @@ public class VectorLogicTest {
 
     @Test
     public void testCountVectorLengthShouldCountLengthWhenInputIsCorrect() {
-        VectorLogic vectorLogic = new VectorLogic();
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
         BigDecimal expected = BigDecimal.valueOf(5)
                 .setScale(10, BigDecimal.ROUND_HALF_UP);
 
-        BigDecimal actual = vectorLogic.countVectorLength(vector3)
+        BigDecimal actual = vectorCalculator.countVectorLength(vector3)
                 .setScale(10, BigDecimal.ROUND_HALF_UP);
 
         Assert.assertEquals(expected, actual);
@@ -38,11 +39,11 @@ public class VectorLogicTest {
 
     @Test
     public void testCountCosBetweenVectorsShouldReturnCosWhenInputIsCorrect() {
-        VectorLogic vectorLogic = new VectorLogic();
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
         BigDecimal expected = BigDecimal.valueOf(1)
                 .setScale(10, BigDecimal.ROUND_HALF_UP);
 
-        BigDecimal actual = vectorLogic.countCosBetweenVectors(vector1, vector2)
+        BigDecimal actual = vectorCalculator.countCosBetweenVectors(vector1, vector2)
                 .setScale(10, BigDecimal.ROUND_HALF_UP);
 
         Assert.assertEquals(expected, actual);
@@ -50,24 +51,24 @@ public class VectorLogicTest {
 
     @Test
     public void testAreVectorsParallelShouldReturnTrueWhenVectorsParallel() {
-        VectorLogic vectorLogic = new VectorLogic();
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
 
-        Assert.assertTrue(vectorLogic.areVectorsParallel(vector1, vector2));
+        Assert.assertTrue(vectorCalculator.areVectorsParallel(vector1, vector2));
     }
 
     @Test
     public void testAreVectorsParallelShouldReturnFalseWhenVectorsNotParallel() {
-        VectorLogic vectorLogic = new VectorLogic();
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
 
-        Assert.assertFalse(vectorLogic.areVectorsParallel(vector1, vector3));
+        Assert.assertFalse(vectorCalculator.areVectorsParallel(vector1, vector3));
     }
 
     @Test
     public void createVectorShouldCreateVectorFromPointsWhenInputIsCorrect() {
-        VectorLogic vectorLogic = new VectorLogic();
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
         Vector expected = new Vector(BigDecimal.valueOf(3), BigDecimal.valueOf(-4));
 
-        Vector actual = vectorLogic.createVector(point1, point2);
+        Vector actual = vectorCalculator.createVector(point1, point2);
 
         Assert.assertEquals(expected, actual);
     }

@@ -20,7 +20,7 @@ public class FileDataReader implements DataReader {
     private static final Logger LOGGER = LogManager.getLogger();
 
     @Override
-    public List<String> readAllLines(String link) throws IOException, DataException {
+    public List<String> readAllLines(String link) throws DataException {
         Scanner scanner = null;
         try {
             LOGGER.info("trying to create input stream");
@@ -38,7 +38,7 @@ public class FileDataReader implements DataReader {
             }
             LOGGER.info("all lines read");
             return lines;
-        } catch (URISyntaxException e) {
+        } catch (URISyntaxException | IOException e ) {
             throw new DataException(e);
         } finally {
             if (scanner != null) {

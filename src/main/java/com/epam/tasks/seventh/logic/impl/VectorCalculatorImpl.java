@@ -1,5 +1,6 @@
-package com.epam.tasks.seventh.logic;
+package com.epam.tasks.seventh.logic.impl;
 
+import com.epam.tasks.seventh.logic.VectorCalculator;
 import com.epam.tasks.seventh.logic.util.BigDecimalUtil;
 import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Vector;
@@ -7,9 +8,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.math.BigDecimal;
 
-public class VectorLogic {
+public class VectorCalculatorImpl implements VectorCalculator {
     private static final Logger LOGGER = LogManager.getLogger();
 
+    @Override
     public BigDecimal countLineLength(Point a, Point b) {
         LOGGER.info(String.format("count line a,b {%s, %s} length", a, b));
         Vector vector = createVector(a, b);
@@ -18,6 +20,17 @@ public class VectorLogic {
         return result;
     }
 
+    @Override
+    public BigDecimal countDistanceFromOrigin(Point a) {
+        LOGGER.info(String.format("count distance from origin to point a {%s}", a));
+        Point origin = new Point(BigDecimal.ZERO, BigDecimal.ZERO);
+        Vector vector = createVector(a, origin);
+        BigDecimal result = countVectorLength(vector);
+        LOGGER.info("line length is " + result);
+        return result;
+    }
+
+    @Override
     public BigDecimal countVectorLength(Vector vector) {
         LOGGER.info("count vector length " + vector);
         BigDecimal x = vector.getX();
@@ -36,6 +49,7 @@ public class VectorLogic {
      * where x1 and y1 are diagonal vector 1 coordinates and x2, y2 are
      * diagonal vector 2 coordinates
      * */
+    @Override
     public BigDecimal countCosBetweenVectors(Vector vector1, Vector vector2) {
         LOGGER.info(String.format("count cos between vectors {%s, %s}", vector1, vector2));
         BigDecimal length1 = countVectorLength(vector1);
@@ -48,6 +62,7 @@ public class VectorLogic {
         return result;
     }
 
+    @Override
     public boolean areVectorsParallel(Vector vector1, Vector vector2) {
         LOGGER.info(String.format("are vectors parallel {%s, %s}", vector1, vector2));
         BigDecimal cos = countCosBetweenVectors(vector1, vector2);
@@ -57,6 +72,7 @@ public class VectorLogic {
         return result;
     }
 
+    @Override
     public Vector createVector(Point a, Point b) {
         BigDecimal x1 = a.getX();
         BigDecimal x2 = b.getX();
@@ -78,5 +94,28 @@ public class VectorLogic {
         BigDecimal y = y1.multiply(y2);
 
         return new Vector(x, y);
+    }
+
+    /**
+     * First two parameters define the AB line
+     * (based on straight line equation)
+     * result = (х3 - х1) * (у2 - у1) - (у3 - у1) * (х2 - х1)
+     * if result = 0 point c lies on AB line
+     * if result > 0 point c lies on the right of AB line
+     * if result < 0 point c lies on the left of AB line
+     * */
+    public int getPointLocationRelativeToABLine(Point a, Point b, Point c) {
+        BigDecimal x1 = a.getX();
+        BigDecimal x2 = b.getX();
+        BigDecimal x3 = c.getX();
+        BigDecimal y1 = a.getY();
+        BigDecimal y2 = b.getY();
+        BigDecimal y3 = c.getY();
+        LOGGER.info(String.format("getting point {%s} location " +
+                "relative to ab {%s, %s} line ", c, a, b));
+        int result = x3.subtract(x1).multiply(y2.subtract(y1))
+                .subtract(y3.subtract(y1).multiply(x2.subtract(x1))).intValue();
+        LOGGER.info("point location relative to ab line is " + result);
+        return result;
     }
 }

@@ -1,6 +1,7 @@
 package com.epam.tasks.seventh.logic.validation;
 
-import com.epam.tasks.seventh.QuadrangleParserForTestUse;
+import com.epam.tasks.seventh.data.QuadrangleParserForTestUse;
+import com.epam.tasks.seventh.logic.validation.impl.QuadrangleValidator;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,7 +16,7 @@ public class QuadrangleValidatorTest {
         Quadrangle quadrangle = parserForTest.getQuadrangle(THREE_DOTS_ON_ONE_LINE);
         QuadrangleValidator validator = new QuadrangleValidator();
 
-        Assert.assertFalse(validator.isQuadrangle(quadrangle));
+        Assert.assertFalse(validator.isValid(quadrangle));
     }
 
     @Test
@@ -24,6 +25,6 @@ public class QuadrangleValidatorTest {
         QuadrangleValidator validator = new QuadrangleValidator();
         Quadrangle quadrangle = parserForTest.getQuadrangle(SQUARE_LINE);
 
-        Assert.assertTrue(validator.isQuadrangle(quadrangle));
+        Assert.assertTrue(validator.isValid(quadrangle));
     }
 }

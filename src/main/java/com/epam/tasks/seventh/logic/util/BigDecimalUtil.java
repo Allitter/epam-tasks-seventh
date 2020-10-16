@@ -2,7 +2,6 @@ package com.epam.tasks.seventh.logic.util;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.math.BigDecimal;
 
 public final class BigDecimalUtil {

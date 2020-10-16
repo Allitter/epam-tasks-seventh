@@ -1,21 +1,23 @@
-package com.epam.tasks.seventh.logic.validation;
+package com.epam.tasks.seventh.logic.validation.impl;
 
 import com.epam.tasks.seventh.logic.util.BigDecimalUtil;
+import com.epam.tasks.seventh.logic.validation.Validator;
 import com.epam.tasks.seventh.model.Point;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.math.BigDecimal;
 
-public class QuadrangleValidator {
+public class QuadrangleValidator implements Validator<Quadrangle> {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public boolean isQuadrangle(Quadrangle quadrangle) {
-        Point a = quadrangle.getPointA();
-        Point b = quadrangle.getPointB();
-        Point c = quadrangle.getPointC();
-        Point d = quadrangle.getPointD();
-        LOGGER.info("is quadrangle " + quadrangle);
+    @Override
+    public boolean isValid(Quadrangle object) {
+        Point a = object.getPointA();
+        Point b = object.getPointB();
+        Point c = object.getPointC();
+        Point d = object.getPointD();
+        LOGGER.info("is quadrangle " + object);
         boolean result = !(areDotsOnOneLine(a, b, c) || areDotsOnOneLine(a, b, d)
                 || areDotsOnOneLine(b, c, d) || areDotsOnOneLine(a, c, d));
         LOGGER.info("is quadrangle " + result);
@@ -40,5 +42,4 @@ public class QuadrangleValidator {
         LOGGER.info("are dots on one line " + result);
         return result;
     }
-
 }

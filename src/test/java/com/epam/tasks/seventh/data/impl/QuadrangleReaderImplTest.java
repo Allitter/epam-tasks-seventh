@@ -1,7 +1,7 @@
 package com.epam.tasks.seventh.data.impl;
 
 import com.epam.tasks.seventh.data.DataReader;
-import com.epam.tasks.seventh.QuadrangleParserForTestUse;
+import com.epam.tasks.seventh.data.QuadrangleParserForTestUse;
 import com.epam.tasks.seventh.data.exception.DataException;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.junit.Assert;
@@ -13,17 +13,19 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
+// TODO rewrite
+
 public class QuadrangleReaderImplTest {
     private static final String CORRECT_QUADRANGLE_LINE_1 = "1 2 3 -4.2 5 6 7.6 8";
     private static final String INCORRECT_QUADRANGLE_LINE = "-1 2 3 -4 5 6";
-    private final QuadrangleParserForTestUse parserForTest = new QuadrangleParserForTestUse();
-    private final Quadrangle quadrangle = parserForTest.getQuadrangle(CORRECT_QUADRANGLE_LINE_1);
 
     @Test
     public void testReadQuadranglesShouldReturnQuadranglesWhenInputIsCorrect()
-            throws IOException, DataException {
+            throws DataException {
         //given
         //Mock parser
+        QuadrangleParserForTestUse parserForTest = new QuadrangleParserForTestUse();
+        Quadrangle quadrangle = parserForTest.getQuadrangle(CORRECT_QUADRANGLE_LINE_1);
         QuadrangleParserImpl parser = Mockito.mock(QuadrangleParserImpl.class);
         Mockito.when(parser.parseQuadrangle(Mockito.any()))
                 .thenReturn(Optional.of(quadrangle));
@@ -44,9 +46,11 @@ public class QuadrangleReaderImplTest {
 
     @Test
     public void testReadQuadranglesShouldReturnQuadranglesWhenInputIsNotCorrect()
-            throws DataException, IOException {
+            throws DataException {
         //given
         //Mock parser
+        QuadrangleParserForTestUse parserForTest = new QuadrangleParserForTestUse();
+        Quadrangle quadrangle = parserForTest.getQuadrangle(CORRECT_QUADRANGLE_LINE_1);
         QuadrangleParserImpl parser = Mockito.mock(QuadrangleParserImpl.class);
         Mockito.when(parser.parseQuadrangle(Mockito.any()))
                 .thenReturn(Optional.of(quadrangle));

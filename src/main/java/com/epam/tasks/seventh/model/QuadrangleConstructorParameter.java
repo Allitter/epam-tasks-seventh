@@ -1,14 +1,20 @@
 package com.epam.tasks.seventh.model;
 
+import com.epam.tasks.seventh.logic.impl.IdGeneratorImpl;
 import java.math.BigDecimal;
 
-public class FourPointParameter {
+public class QuadrangleConstructorParameter {
+    private int id;
     private Point pointA;
     private Point pointB;
     private Point pointC;
     private Point pointD;
 
-    private FourPointParameter() {
+    private QuadrangleConstructorParameter() {
+    }
+
+    public int getId() {
+        return id;
     }
 
     public Point getPointA() {
@@ -27,8 +33,44 @@ public class FourPointParameter {
         return pointD;
     }
 
+    @Override
+    public String toString() {
+        return "FourPointParameter{" +
+                "pointA=" + pointA +
+                ", pointB=" + pointB +
+                ", pointC=" + pointC +
+                ", pointD=" + pointD +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        QuadrangleConstructorParameter that = (QuadrangleConstructorParameter) o;
+
+        return pointD.equals(that.pointD) &&
+                pointA.equals(that.pointA) &&
+                pointB.equals(that.pointB) &&
+                pointC.equals(that.pointC);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = pointA.hashCode();
+        result = 31 * result + pointB.hashCode();
+        result = 31 * result + pointC.hashCode();
+        result = 31 * result + pointD.hashCode();
+        return result;
+    }
+
     public static class Builder {
-        private final static Point DEFAULT_POINT =
+        private static final IdGeneratorImpl ID_GENERATOR = new IdGeneratorImpl();
+        private static final  Point DEFAULT_POINT =
                 new Point(BigDecimal.ZERO, BigDecimal.ZERO);
         private Point pointA;
         private Point pointB;
@@ -79,8 +121,9 @@ public class FourPointParameter {
             pointD = new Point(x1, y1);
         }
 
-        public FourPointParameter build() {
-            FourPointParameter parameter = new FourPointParameter();
+        public QuadrangleConstructorParameter build() {
+            QuadrangleConstructorParameter parameter = new QuadrangleConstructorParameter();
+            parameter.id = ID_GENERATOR.getId();
             parameter.pointA = pointA;
             parameter.pointB = pointB;
             parameter.pointC = pointC;
@@ -96,37 +139,5 @@ public class FourPointParameter {
             pointC = DEFAULT_POINT;
             pointD = DEFAULT_POINT;
         }
-    }
-
-    @Override
-    public String toString() {
-        return "FourPointParameter{" +
-                "pointA=" + pointA +
-                ", pointB=" + pointB +
-                ", pointC=" + pointC +
-                ", pointD=" + pointD +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        FourPointParameter that = (FourPointParameter) o;
-
-        if (!pointA.equals(that.pointA)) return false;
-        if (!pointB.equals(that.pointB)) return false;
-        if (!pointC.equals(that.pointC)) return false;
-        return pointD.equals(that.pointD);
-    }
-
-    @Override
-    public int hashCode() {
-        int result = pointA.hashCode();
-        result = 31 * result + pointB.hashCode();
-        result = 31 * result + pointC.hashCode();
-        result = 31 * result + pointD.hashCode();
-        return result;
     }
 }
