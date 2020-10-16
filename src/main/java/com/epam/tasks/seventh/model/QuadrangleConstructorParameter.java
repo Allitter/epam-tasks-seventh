@@ -1,5 +1,6 @@
 package com.epam.tasks.seventh.model;
 
+import com.epam.tasks.seventh.logic.IdGenerator;
 import com.epam.tasks.seventh.logic.impl.IdGeneratorImpl;
 import java.math.BigDecimal;
 
@@ -69,7 +70,7 @@ public class QuadrangleConstructorParameter {
     }
 
     public static class Builder {
-        private static final IdGeneratorImpl ID_GENERATOR = new IdGeneratorImpl();
+        private static final IdGenerator ID_GENERATOR = new IdGeneratorImpl();
         private static final  Point DEFAULT_POINT =
                 new Point(BigDecimal.ZERO, BigDecimal.ZERO);
         private Point pointA;

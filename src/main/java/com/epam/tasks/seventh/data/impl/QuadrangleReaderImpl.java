@@ -1,6 +1,7 @@
 package com.epam.tasks.seventh.data.impl;
 
 import com.epam.tasks.seventh.data.DataReader;
+import com.epam.tasks.seventh.data.QuadrangleParser;
 import com.epam.tasks.seventh.data.validation.InputValidator;
 import com.epam.tasks.seventh.data.QuadrangleReader;
 import com.epam.tasks.seventh.data.exception.DataException;
@@ -15,9 +16,9 @@ import java.util.Optional;
 public class QuadrangleReaderImpl implements QuadrangleReader {
     private final static Logger LOGGER = LogManager.getLogger();
     private final DataReader reader;
-    private final QuadrangleParserImpl parser;
+    private final QuadrangleParser parser;
 
-    public QuadrangleReaderImpl(DataReader reader, QuadrangleParserImpl parser) {
+    public QuadrangleReaderImpl(DataReader reader, QuadrangleParser parser) {
         this.reader = reader;
         this.parser = parser;
     }
