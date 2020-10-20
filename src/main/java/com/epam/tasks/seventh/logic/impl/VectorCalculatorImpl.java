@@ -67,7 +67,7 @@ public class VectorCalculatorImpl implements VectorCalculator {
         LOGGER.info(String.format("are vectors parallel {%s, %s}", vector1, vector2));
         BigDecimal cos = countCosBetweenVectors(vector1, vector2);
         cos = cos.abs();
-        boolean result = BigDecimalUtil.numbersEqual(cos, BigDecimal.ONE);
+        boolean result = cos.compareTo(BigDecimal.ONE) == 0;
         LOGGER.info("are vectors parallel " + result);
         return result;
     }

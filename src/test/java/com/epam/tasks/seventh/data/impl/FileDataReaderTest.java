@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FileDataReaderTest {
-    private static final String PATH = "testinput.txt";
+    private static final String PATH = "src/test/resources/testinput.txt";
 
     @Test
     public void testReadLinesShouldReadMultipleLinesWhenHasInput() throws DataException {

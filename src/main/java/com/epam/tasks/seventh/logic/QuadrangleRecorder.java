@@ -8,8 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-// TODO create testes
-
 public final class QuadrangleRecorder implements Observer<Quadrangle> {
     private final Map<Integer, QuadrangleParameters> quadrangleParameters = new HashMap<>();
     private final QuadrangleCalculator logic = new QuadrangleCalculatorImpl();

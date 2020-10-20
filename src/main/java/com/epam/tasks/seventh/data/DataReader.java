@@ -5,6 +5,6 @@ import java.util.List;
 
 public interface DataReader {
 
-    List<String> readAllLines(String link) throws DataException;
+    List<String> readAllLines(String path) throws DataException;
 
 }

@@ -46,7 +46,6 @@ public class Vector {
         int xValue = this.x.intValue();
         int yValue = this.y.intValue();
         int result = PRIME_FOR_HASH * xValue + xValue;
-        result = PRIME_FOR_HASH * result * yValue + yValue;
-        return result;
+        return PRIME_FOR_HASH * result * yValue + yValue;
     }
 }

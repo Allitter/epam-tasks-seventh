@@ -25,20 +25,8 @@ public class QuadrangleReaderImpl implements QuadrangleReader {
 
     @Override
     public List<Quadrangle> readQuadrangles(String link) throws DataException {
-        List<String> lines = readAllLines(link);
-        return parseValidQuadrangles(lines);
-    }
+        List<String> lines = reader.readAllLines(link);
 
-    private List<String> readAllLines(String link) throws DataException {
-        List<String> lines;
-        LOGGER.info("trying to read quadrangles");
-        lines = reader.readAllLines(link);
-        LOGGER.info("read quadrangles");
-
-        return lines;
-    }
-
-    private List<Quadrangle> parseValidQuadrangles(List<String> lines) {
         List<Quadrangle> result = new LinkedList<>();
         InputValidator validator = new QuadrangleInputValidator();
 
@@ -58,5 +46,4 @@ public class QuadrangleReaderImpl implements QuadrangleReader {
 
         return result;
     }
-
 }

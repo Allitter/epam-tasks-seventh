@@ -38,7 +38,7 @@ public class QuadrangleValidator implements Validator<Quadrangle> {
         LOGGER.info(String.format("are dots {%s, %s, %s} on one line", a, b, c));
         BigDecimal left = y3.subtract(y1).multiply(x2.subtract(x1));
         BigDecimal right = y2.subtract(y1).multiply(x3.subtract(x1));
-        boolean result = BigDecimalUtil.numbersEqual(left, right);
+        boolean result = left.compareTo(right) == 0;
         LOGGER.info("are dots on one line " + result);
         return result;
     }

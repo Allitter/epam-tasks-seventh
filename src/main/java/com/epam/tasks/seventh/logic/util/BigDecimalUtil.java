@@ -24,8 +24,4 @@ public final class BigDecimalUtil {
         LOGGER.info("result is " + root);
         return root;
     }
-
-    public static boolean numbersEqual(BigDecimal x, BigDecimal y) {
-        return x.compareTo(y) == 0;
-    }
 }

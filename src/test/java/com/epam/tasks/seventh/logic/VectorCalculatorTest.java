@@ -72,4 +72,30 @@ public class VectorCalculatorTest {
 
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testCountDistanceFromOriginShouldReturnDistanceFromOrigin() {
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
+        Point point = new Point(BigDecimal.valueOf(-3), BigDecimal.valueOf(-4));
+        BigDecimal expected = BigDecimal.valueOf(5)
+                .setScale(10, BigDecimal.ROUND_DOWN);
+
+        BigDecimal actual = vectorCalculator.countDistanceFromOrigin(point)
+                .setScale(10, BigDecimal.ROUND_DOWN);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testGetPointLocationRelativeToABLineShouldReTurnIntWhenInputIsCorrect() {
+        VectorCalculator vectorCalculator = new VectorCalculatorImpl();
+        Point pointA = new Point(BigDecimal.valueOf(1), BigDecimal.valueOf(1));
+        Point pointB = new Point(BigDecimal.valueOf(2), BigDecimal.valueOf(2));
+        Point pointC = new Point(BigDecimal.valueOf(1), BigDecimal.valueOf(2));
+
+        int actual = vectorCalculator
+                .getPointLocationRelativeToABLine(pointA, pointB, pointC);
+
+        Assert.assertTrue(actual < 0);
+    }
 }

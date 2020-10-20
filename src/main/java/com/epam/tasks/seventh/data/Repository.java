@@ -7,7 +7,7 @@ import java.util.List;
 public interface Repository<T> {
     void add(T quadrangle) throws DataException;
     void remove(T quadrangle) throws DataException;
-    void update(T quadrangle) throws DataException;
+    void update(T quadrangle);
 
     List<T> query(Specification<T> specification);
 }

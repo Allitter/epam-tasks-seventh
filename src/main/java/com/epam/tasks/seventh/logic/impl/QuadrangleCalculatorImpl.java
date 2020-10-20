@@ -94,9 +94,9 @@ public class QuadrangleCalculatorImpl implements QuadrangleCalculator {
         BigDecimal side3 = vectorCalculator.countLineLength(c, d);
         BigDecimal side4 = vectorCalculator.countLineLength(a, d);
 
-        boolean result = BigDecimalUtil.numbersEqual(side1, side2) &&
-                BigDecimalUtil.numbersEqual(side1, side3) &&
-                BigDecimalUtil.numbersEqual(side1, side4);
+        boolean result = side1.compareTo(side2) == 0 &&
+                side1.compareTo(side3) == 0 &&
+                side1.compareTo(side4) == 0;
         LOGGER.info("is rhombus " + result);
         return result;
     }
@@ -125,7 +125,6 @@ public class QuadrangleCalculatorImpl implements QuadrangleCalculator {
         return result;
     }
 
-    // TODO try to change implementation
     @Override
     public boolean isConvex(Quadrangle quadrangle) {
         Validator<Quadrangle> validator = new QuadrangleValidator();
@@ -159,7 +158,7 @@ public class QuadrangleCalculatorImpl implements QuadrangleCalculator {
         Vector vectorAD = vectorCalculator.createVector(a, d);
 
         BigDecimal cos = vectorCalculator.countCosBetweenVectors(vectorAB, vectorAD);
-        boolean result = BigDecimalUtil.numbersEqual(cos, BigDecimal.ZERO);
+        boolean result = cos.compareTo(BigDecimal.ZERO) == 0;
         LOGGER.info("is rectangle " + result);
         return result;
     }

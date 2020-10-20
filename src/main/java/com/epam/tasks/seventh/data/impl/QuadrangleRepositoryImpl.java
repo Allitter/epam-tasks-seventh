@@ -4,14 +4,19 @@ import com.epam.tasks.seventh.data.Repository;
 import com.epam.tasks.seventh.data.exception.DataException;
 import com.epam.tasks.seventh.data.specification.Specification;
 import com.epam.tasks.seventh.model.Quadrangle;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
-// TODO create tests
+import java.util.*;
 
 public final class QuadrangleRepositoryImpl implements Repository<Quadrangle> {
-    private final List<Quadrangle> quadrangles = new ArrayList<>();
+    private final List<Quadrangle> quadrangles;
+
+    public QuadrangleRepositoryImpl() {
+        quadrangles = new ArrayList<>();
+    }
+
+    /*package private for test*/
+    QuadrangleRepositoryImpl(List<Quadrangle> source) {
+        quadrangles = source;
+    }
 
     @Override
     public void add(Quadrangle quadrangle) throws DataException {
@@ -24,7 +29,7 @@ public final class QuadrangleRepositoryImpl implements Repository<Quadrangle> {
 
     @Override
     public void remove(Quadrangle quadrangle) throws DataException {
-        if (quadrangles.contains(quadrangle)) {
+        if (!quadrangles.contains(quadrangle)) {
             throw new DataException("Repository doesn't contain quadrangle"
                     + quadrangle);
         }
@@ -32,15 +37,16 @@ public final class QuadrangleRepositoryImpl implements Repository<Quadrangle> {
     }
 
     @Override
-    public void update(Quadrangle quadrangle) throws DataException {
+    public void update(Quadrangle quadrangle) {
         int id = quadrangle.getId();
+        Iterator<Quadrangle> iterator = quadrangles.iterator();
         Quadrangle thatQuadrangle;
-        int i = 0;
-        while (i < quadrangles.size()) {
-            thatQuadrangle = quadrangles.get(i);
+        while (iterator.hasNext()) {
+            thatQuadrangle = iterator.next();
             if (thatQuadrangle.getId() == id) {
-                remove(thatQuadrangle);
-                add(quadrangle);
+                quadrangles.remove(thatQuadrangle);
+                quadrangles.add(quadrangle);
+                break;
             }
         }
     }

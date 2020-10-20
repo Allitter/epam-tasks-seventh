@@ -1,9 +1,11 @@
 package com.epam.tasks.seventh.data.specification.impl;
 
 import com.epam.tasks.seventh.data.QuadrangleParserForTestUse;
+import com.epam.tasks.seventh.logic.QuadrangleCalculator;
 import com.epam.tasks.seventh.model.Quadrangle;
 import org.junit.Assert;
 import org.junit.Test;
+import org.mockito.Mockito;
 import java.math.BigDecimal;
 
 public class QuadrangleAreaRangeSpecificationTest {
@@ -14,8 +16,10 @@ public class QuadrangleAreaRangeSpecificationTest {
 
     @Test
     public void testSpecifiedShouldReturnTrueWhenAreaIsInRange() {
+        QuadrangleCalculator calculator = Mockito.mock(QuadrangleCalculator.class);
+        Mockito.when(calculator.calculateArea(Mockito.any())).thenReturn(BigDecimal.valueOf(9));
         QuadrangleAreaRangeSpecification specification
-                = new QuadrangleAreaRangeSpecification(MIN_AREA, MAX_AREA);
+                = new QuadrangleAreaRangeSpecification(MIN_AREA, MAX_AREA, calculator);
         QuadrangleParserForTestUse parser = new QuadrangleParserForTestUse();
         Quadrangle quadrangle = parser.getQuadrangle(QUADRANGLE_IN_RANGE);
 
@@ -24,8 +28,10 @@ public class QuadrangleAreaRangeSpecificationTest {
 
     @Test
     public void testSpecifiedShouldReturnFalseWhenAreaIsNotInRange() {
+        QuadrangleCalculator calculator = Mockito.mock(QuadrangleCalculator.class);
+        Mockito.when(calculator.calculateArea(Mockito.any())).thenReturn(BigDecimal.valueOf(49));
         QuadrangleAreaRangeSpecification specification
-                = new QuadrangleAreaRangeSpecification(MIN_AREA, MAX_AREA);
+                = new QuadrangleAreaRangeSpecification(MIN_AREA, MAX_AREA, calculator);
         QuadrangleParserForTestUse parser = new QuadrangleParserForTestUse();
         Quadrangle quadrangle = parser.getQuadrangle(QUADRANGLE_OUT_OF_RANGE);
 

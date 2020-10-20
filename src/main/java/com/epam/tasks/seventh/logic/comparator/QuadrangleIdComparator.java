@@ -5,9 +5,9 @@ import java.util.Comparator;
 
 public class QuadrangleIdComparator implements Comparator<Quadrangle> {
     @Override
-    public int compare(Quadrangle o1, Quadrangle o2) {
-        int id1 = o1.getId();
-        int id2 = o2.getId();
-        return id1 - id2;
+    public int compare(Quadrangle firstQuadrangle, Quadrangle secondQuadrangle) {
+        int firstQuadrangleId = firstQuadrangle.getId();
+        int secondQuadrangleId = secondQuadrangle.getId();
+        return firstQuadrangleId - secondQuadrangleId;
     }
 }

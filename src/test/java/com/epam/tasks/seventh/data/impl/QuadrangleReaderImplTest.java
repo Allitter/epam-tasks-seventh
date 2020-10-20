@@ -13,8 +13,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
-// TODO rewrite
-
 public class QuadrangleReaderImplTest {
     private static final String CORRECT_QUADRANGLE_LINE_1 = "1 2 3 -4.2 5 6 7.6 8";
     private static final String INCORRECT_QUADRANGLE_LINE = "-1 2 3 -4 5 6";

@@ -30,20 +30,4 @@ public class BigDecimalUtilTest {
 
         Assert.assertEquals(expected, actual);
     }
-
-    @Test
-    public void testNumbersEqualShouldReturnTrueWhenNumbersEqual() {
-        BigDecimal bigDecimal1 = new BigDecimal("1.20");
-        BigDecimal bigDecimal2 = new BigDecimal("1.2");
-
-        Assert.assertTrue(BigDecimalUtil.numbersEqual(bigDecimal1, bigDecimal2));
-    }
-
-    @Test
-    public void testNumbersEqualShouldReturnFalseWhenNumbersNotEqual() {
-        BigDecimal bigDecimal1 = new BigDecimal("120");
-        BigDecimal bigDecimal2 = new BigDecimal("1.2");
-
-        Assert.assertFalse(BigDecimalUtil.numbersEqual(bigDecimal1, bigDecimal2));
-    }
 }
